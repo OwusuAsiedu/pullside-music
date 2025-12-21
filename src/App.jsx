@@ -6,6 +6,7 @@ import NewReleasesPage from './pages/NewReleasesPage';
 import TrendingPage from './pages/TrendingPage';
 import NewsPage from './pages/NewsPage';
 import AboutPage from './pages/AboutPage';
+import ContactPage from './pages/ContactPage';
 import './App.css';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
             <Route path="/trending" element={<TrendingPage />} />
             <Route path="/news" element={<NewsPage />} />
             <Route path="/about" element={<AboutPage />} />
+            <Route path="/contact" element={<ContactPage />} />
           </Routes>
         </main>
         <Footer />
