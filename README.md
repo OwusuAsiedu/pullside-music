@@ -1,23 +1,41 @@
-<<<<<<< HEAD
-# pullside-music
+# Pullside Music
+
 Pullside Music is a simple and modern hip-hop video discovery website designed as part of my ALX Front-End Web Development Capstone Project. The platform allows users to explore the latest hip-hop/rap music videos, watch embedded YouTube content, and follow links to stream songs on music platforms like Apple Music and Spotify.
-=======
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
 
-Currently, two official plugins are available:
+- **Home Page**: Featured and trending hip-hop videos
+- **New Releases**: Latest hip-hop music videos
+- **Trending**: Most popular hip-hop videos
+- **News**: Hip-hop news and updates
+- **Search**: Search for artists or songs
+- **Mobile-friendly**: Responsive design for all devices
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
 
-## React Compiler
+- React
+- Vite
+- Tailwind CSS
+- YouTube Data API v3
+- React Router
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## Setup
 
-Note: This will impact Vite dev & build performances.
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Get a YouTube Data API v3 key from [Google Cloud Console](https://console.cloud.google.com/)
+   - Create a new project or select an existing one
+   - Enable the YouTube Data API v3
+   - Create credentials (API key)
+4. Create a `.env` file in the root directory and add your API key: `VITE_YOUTUBE_API_KEY=your_api_key_here`
+5. Run the development server: `npm run dev`
 
-## Expanding the ESLint configuration
+**Note**: If you don't have an API key, the app will use backup static data for demonstration purposes.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> 1c41b37 (Initial commit: Pullside Music React + Tailwind setup)
+## Deployment
+
+This project can be deployed to Vercel, Netlify, or any static site host.
+
+## License
+
+This project is part of an educational capstone project.
